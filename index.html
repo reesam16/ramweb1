@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ramweb2 with caro</title>
+    <link rel="stylesheet" href="app.css">
+    
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            
+            <a href="#" class="icon">
+                <img src="img-web/assets-1/logo2-web.png" alt="my logo">
+            </a>
+            <div class="buttons">
+                <button class="button">
+                    <a href="#about" class="link">about</a>
+                </button>
+                <button class="button">
+                    <a href="#work" class="link">paintings</a>
+                </button>
+                <button class="button">
+                    <a href="#" class="link">photos</a>
+                </button>
+                
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="img-web/assets-1/logofull-web.png" alt="">
+        </div>
+<div class="c-body">
+        <div class="c_container">
+
+            <button class="prev" id="prev" >&#10094</button>
+    
+            <div class="c_wrapper" id="carouselWrapper">
+                <div class="c_item"><img src="img-web/nc-landscape-web/shack-web.jpg" alt=""></div>
+                <div class="c_item"><img src="img-web/nc-landscape-web/mcgfm-web.jpg" alt=""></div>
+                <div class="c_item"><img src="img-web/nc-landscape-web/mc2-web.jpg" alt=""></div>
+                <div class="c_item"><img src="img-web/florida-web/jup8-web.jpg" alt=""></div>
+                <div class="c_item"><img src="img-web/stilllife-web/sl1-web.jpg" alt=""></div>
+                <div class="c_item"><img src="img-web/florida-web/jup7-web.jpg" alt=""></div>
+                <div class="c_item clone"><img src="img-web/nc-landscape-web/shack-web.jpg" alt=""></div>
+    
+            </div>
+    
+            <button class="next" id="next" >&#10095</button>
+            
+            <!-- Navigation Dots HTML -->
+             <div class="c_dots" id="carouselDots">
+                <div class="dot active" data-index="0"></div>
+                <div class="dot" data-index="1"></div>
+                <div class="dot" data-index="2"></div>
+                <div class="dot" data-index="3"></div>
+                <div class="dot" data-index="4"></div>
+                <div class="dot" data-index="5"></div>
+            </div>
+    
+        </div>
+    
+        <!-- New Auto-play Button -->
+        <button class="autoplay-button" id="autoplayButton">Start Auto-Play</button>
+
+    </div>
+
+
+
+
+
+    
+    <div class="container">
+
+        <div class="c1 cont1" id="about">
+            <img src="img-web/assets-1/logofull-web.png" alt="">
+            
+            <p>Rees found his passion while studying at the University of Tampa. Upon completion of his BA in History, he moved out to Seattle, Washington where he studied for 3 years at the Georgetown Atelier.  There he learned skills in classical painting and drawing. </p>
+
+            <p>Rees is available for commissions, please contact for scheduling. </p>
+            <button class="button">
+                <a href="contact.html" class="link">contact</a>
+            </button>
+        </div> 
+        <div class="c2 cont2" id="portrate">
+
+            <div class="desc">
+                <a href="portrategallery.html">
+                    <img src="img-web/portrate-web/manport1-web.jpg" alt="" srcset="">
+                    <h2>Portrates</h2>
+                </a>
+            </div>
+            <div class="desc">
+                <a href="lightbox.html">
+               <img src="assets/d1t.png" alt="">
+               <h2>drawings</h2>
+               </a>
+           </div>
+        </div>
+        
+        <div class="c3 cont3" id="work">
+            <div class="desc">
+                <a href="vcgallery.html">
+                    <h2>Valle Crucis</h2>
+                    
+                </a>
+            </div>  
+        </div>
+
+        <div class="c4 cont3">
+            <div class="desc">
+                <a href="flgallery.html">
+                    <h2>florida</h2>
+                   
+                </a>
+            </div> 
+        </div>
+
+        <div class="c5 cont3">
+            <div class="desc">
+                <a href="landgallery.html">
+                    <h2>Landscape</h2>
+                    
+                </a>
+                </div> 
+        </div>
+
+        <div class="c6 cont3">
+            <div class="desc">
+                <a href="figuregallery.html">
+                    <h2>Figurative</h2>
+                    
+                </a>
+                </div> 
+        </div>
+       
+        
+    </div>
+</main>
+
+
+<footer>
+
+    <div class="footer">
+        <div class="desc">
+        <h2>footer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <ul>
+            <li> <a href="#">home</a> </li>
+            <li> <a href="index.html#about">about</a> </li>
+            <li> <a href="index.html#work">paintings</a> </li>
+            <li> <a href="index.html#portrate">portrate</a> </li>
+        </ul>
+        
+    </div>
+
+</footer>
+
+
+    <script src="app.js"></script>
+    <script src="carro.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Light Box</title>
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="lb.css">
+
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            
+            <a href="index.html" class="icon">
+                <img src="img-web/assets-1/logo2-web.png" alt="my logo">
+            </a>
+            <div class="buttons">
+                <button class="button">
+                    <a href="index.html#about" class="link">about</a>
+                </button>
+                <button class="button">
+                    <a href="index.html#work" class="link">paintings</a>
+                </button>
+                <button class="button">
+                    <a href="index.html" class="link">photos</a>
+                </button>
+                
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <header><div class="header">
+        <h1>This is the Header</h1>
+    </div></header>
+    <main>
+
+
+           
+            <div class="lightbox">
+                <div class="lightbox-content">
+                    <div class="lightbox-prev fa fa-angle-left"></div>
+                    <img alt="Enlarged image for the gallery"></img>
+                    <div class="lightbox-next fa fa-angle-right"></div>
+            </div>
+            </div>
+
+
+        <div class="gallery-container">
+            <div class="gallery-item" data-index="1"><img src="img-web/nc-landscape-web/bardhouse-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="2"><img src="img-web/nc-landscape-web/mastbarn-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="3"><img src="img-web/nc-landscape-web/mc1-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="4"><img src="img-web/nc-landscape-web/mc2-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="5"><img src="img-web/nc-landscape-web/mccow-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="6"><img src="img-web/nc-landscape-web/mcgfm-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="7"><img src="img-web/nc-landscape-web/shack-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="8"><img src="img-web/nc-landscape-web/tree-web.jpg" alt=""></div>
+            <div class="gallery-item" data-index="9"><img src="img-web/nc-landscape-web/vcbarn-web.jpg" alt=""></div>
+            
+        </div>
+    </main>
+
+
+    <footer>
+
+        <div class="footer">
+            <div class="desc">
+            <h2>RAMWEB</h2>
+            <p> &#169; 2025 site by Rees.</p>
+            </div>
+            <ul>
+                <li> <a href="index.html">home</a> </li>
+                <li> <a href="index.html#about">about</a> </li>
+                <li> <a href="index.html#work">paintings</a> </li>
+                <li> <a href="index.html#portrate">portrate</a> </li>
+            </ul>
+            
+        </div>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+    <script src="lb.js"></script>
+</body>
+</html>
