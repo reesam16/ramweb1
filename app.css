@@ -126,6 +126,7 @@ button{
     height: 450px;
     transition: transform 0.5s ease-in-out;
     touch-action: pan-y;
+    transform: translateX(0%);
 }
 .c_item{
     height: 100%;
