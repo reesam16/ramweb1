@@ -148,4 +148,4 @@ navDots.forEach((dot) => {
   });
 });
 
-updateCarousel();
+setTimeout(updateCarousel, 50);
