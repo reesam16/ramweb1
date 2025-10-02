@@ -28,21 +28,6 @@ function updateCarousel() {
   }
 }
 
-// function nextSlide() {
-//   //   currentIndex = (currentIndex + 1) % totalItems;
-//   if (currentIndex === totalRealSlides) {
-//     carouselWrapper.style.transition = "none";
-//     currentIndex = 0;
-//     updateCarousel();
-
-//     setTimeout(() => {
-//       carouselWrapper.style.transition = "transform 0.50s ease-in-out";
-//     }, 50);
-//   } else {
-//     currentIndex++;
-//     updateCarousel();
-//   }
-// }
 
 // nextSlide arrow function
 
@@ -58,7 +43,7 @@ const nextSlide = () => {
 
       setTimeout(() => {
         carouselWrapper.style.transition = "transform 0.5s ease-in-out";
-      }, 50);
+      }, 20);
     }, 500);
   } else {
     currentIndex++;
@@ -66,29 +51,7 @@ const nextSlide = () => {
   }
 };
 
-// function nextSlide() {
-//   if (currentIndex === totalRealSlides - 1) {
-//     // Check if we are on the last real slide
-//     // Step 1: Smoothly move to the clone
-//     currentIndex = totalRealSlides;
-//     updateCarousel();
 
-//     // Step 2: Perform the instant jump after the transition completes
-//     setTimeout(() => {
-//       carouselWrapper.style.transition = "none";
-//       currentIndex = 0;
-//       updateCarousel();
-
-//       setTimeout(() => {
-//         carouselWrapper.style.transition = "transform 0.5s ease-in-out";
-//       }, 50);
-//     }, 500); // This delay should match your CSS transition duration
-//   } else {
-//     // Normal transition to the next slide
-//     currentIndex++;
-//     updateCarousel();
-//   }
-// }
 
 function prevSlide() {
   //   currentIndex = (currentIndex - 1 + totalItems) % totalItems;
@@ -98,7 +61,7 @@ function prevSlide() {
     updateCarousel();
     setTimeout(() => {
       carouselWrapper.style.transition = "transform 0.5s ease-in-out";
-    }, 50);
+    }, 20);
   } else {
     currentIndex--;
     updateCarousel();
